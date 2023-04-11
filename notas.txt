@@ -25,3 +25,9 @@ git commit -m "Fisrt commit"
 
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+
+Recuperar el ultimo cambio por si malogramos algo del codigo
+$ git checkout -- main.py
+
+Ver todas las versiones que hemos hecho commit
+git log
