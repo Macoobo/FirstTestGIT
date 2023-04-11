@@ -1,0 +1,27 @@
+maria@LAPTOP-5EGKJ2TF MINGW64 /c/Mariano/1. Master en Data Science/8. GIT/first_project
+$ pwd
+/c/Mariano/1. Master en Data Science/8. GIT/first_project
+
+
+Crear proyecto desde cero (Crea una carpeta oculta donde se almacenan las versiones)
+$ git init 
+
+Ejecutar el Script de python
+$ python main.py
+Hello World
+
+Cuantos files estoy usando?
+$ git status
+On branch master
+
+Para agregar el file al reposirio
+$ git add main.py
+
+Cuantos files estoy usando?
+$ git status
+
+
+git commit -m "Fisrt commit"
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
